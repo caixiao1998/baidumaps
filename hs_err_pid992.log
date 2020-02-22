@@ -1,0 +1,114 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:137), pid=992, tid=1796
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_80-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.80-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002bd0800):  JavaThread "Unknown thread" [_thread_in_vm, id=1796, stack(0x0000000002ad0000,0x0000000002bd0000)]
+
+Stack: [0x0000000002ad0000,0x0000000002bd0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002bd0800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1796, stack(0x0000000002ad0000,0x0000000002bd0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x0000000002c1f5c0 done
+Event: 0.010 loading class 0x0000000002c1efc0 done
+Event: 0.010 loading class 0x0000000002c1efa0
+Event: 0.010 loading class 0x0000000002c27110
+Event: 0.010 loading class 0x0000000002c27110 done
+Event: 0.010 loading class 0x0000000002c27140
+Event: 0.010 loading class 0x0000000002c27140 done
+Event: 0.010 loading class 0x0000000002c27170
+Event: 0.010 loading class 0x0000000002c27170 done
+Event: 0.010 loading class 0x0000000002c1efa0 done
+
+
+Dynamic libraries:
+0x00007ff6515b0000 - 0x00007ff6515e3000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\javaw.exe
+0x00007ff918030000 - 0x00007ff91821d000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff915680000 - 0x00007ff915733000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ff914940000 - 0x00007ff914bd3000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ff9158d0000 - 0x00007ff915973000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ff917040000 - 0x00007ff9170de000 	C:\Windows\System32\msvcrt.dll
+0x00007ff9157d0000 - 0x00007ff91586e000 	C:\Windows\System32\sechost.dll
+0x00007ff917c40000 - 0x00007ff917d62000 	C:\Windows\System32\RPCRT4.dll
+0x00007ff9179d0000 - 0x00007ff917b67000 	C:\Windows\System32\USER32.dll
+0x00007ff914be0000 - 0x00007ff914c00000 	C:\Windows\System32\win32u.dll
+0x00007ff917fd0000 - 0x00007ff917ff9000 	C:\Windows\System32\GDI32.dll
+0x00007ff914dd0000 - 0x00007ff914f69000 	C:\Windows\System32\gdi32full.dll
+0x00007ff9148a0000 - 0x00007ff914940000 	C:\Windows\System32\msvcp_win.dll
+0x00007ff914f70000 - 0x00007ff91506a000 	C:\Windows\System32\ucrtbase.dll
+0x00007ff9004e0000 - 0x00007ff900759000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.802_none_05b1445c0722d2cc\COMCTL32.dll
+0x00007ff917140000 - 0x00007ff91746c000 	C:\Windows\System32\combase.dll
+0x00007ff914cb0000 - 0x00007ff914d2e000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ff915ae0000 - 0x00007ff915b0e000 	C:\Windows\System32\IMM32.DLL
+0x000000005bfc0000 - 0x000000005c092000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\msvcr100.dll
+0x000000005c3f0000 - 0x000000005cbc9000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\server\jvm.dll
+0x00007ff915740000 - 0x00007ff915748000 	C:\Windows\System32\PSAPI.DLL
+0x00007ff907940000 - 0x00007ff907949000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff912000000 - 0x00007ff912024000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ff9174e0000 - 0x00007ff91754d000 	C:\Windows\System32\WS2_32.dll
+0x00007ff911c30000 - 0x00007ff911c5d000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ff914d30000 - 0x00007ff914d7a000 	C:\Windows\System32\cfgmgr32.dll
+0x000000005c3e0000 - 0x000000005c3ef000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\verify.dll
+0x000000005c3b0000 - 0x000000005c3d8000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\java.dll
+0x000000005c390000 - 0x000000005c3a6000 	E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:E:\实训-百度地图材料\开发软件\android-sdk-windows\platforms\android-19\android.jar 
+java_command: com.example.baidumaps.ms
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\JDK1
+PATH=E:/实训-百度地图材料/开发软件/android-sdk-windows/eclipse/jre/bin/server;E:/实训-百度地图材料/开发软件/android-sdk-windows/eclipse/jre/bin;E:/实训-百度地图材料/开发软件/android-sdk-windows/eclipse/jre/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;"E:\JDK1\bin;";C:\ProgramData\chocolatey\bin;C:\Users\77936\AppData\Local\Microsoft\WindowsApps E:\mysql\mysql-5.6.43-winx64\bin;C:\tools\Cmder;;E:\实训-百度地图材料\开发软件\android-sdk-windows\eclipse;
+USERNAME=77936
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 94 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, erms, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8299300k(2757700k free), swap 13048000k(1639500k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.80-b11) for windows-amd64 JRE (1.7.0_80-b15), built on Apr 10 2015 11:26:34 by "java_re" with unknown MS VC++:1600
+
+time: Thu Oct 24 15:22:30 2019
+elapsed time: 0 seconds
+
